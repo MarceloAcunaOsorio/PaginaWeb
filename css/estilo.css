@@ -11,14 +11,15 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    background-color: #e1e2e1;
+    background-color: #ffffff;
 }
 
 .header{
     width: 100%;
-    min-width: auto;
-    height: 170px;
-    margin: 0px auto;
+    display: inline;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
 }
 
 /*modifica el contener del logo*/
@@ -77,7 +78,7 @@ body{
     position: absolute;
     text-align: left;
     width: 180px;
-    box-shadow: 0px 2px 2px gray;
+    box-shadow: 0px 2px 2px rgb(85, 84, 84);
     z-index: 1;
 }
 
@@ -118,4 +119,155 @@ iframe{
     width: 100%;
     height: 50px;
     border-style: none;
+}
+
+/*container*/
+.container{
+    width: 85%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*parrafo*/
+p{
+    margin-bottom: 1.6em;
+}
+
+
+
+
+
+/*pagina de contacto*/
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+.contact_form body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+    background-color: #fafafa; 
+}
+
+
+/*formulario*/
+.contact_form{	
+	width: 460px; 
+    height: auto;
+    margin: 50px auto;
+	border-radius: 10px;  
+	padding-top: 15px;
+	padding-bottom: 15px;  
+    background-color: #8abbaf; 
+    padding-left: 30px; 
+}
+
+
+.contact_form input{
+	background-color: #ffffff; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #fcfcfc; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 4px; 
+}
+
+/*cuadro de mensaje*/
+.contact_form textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ffffff; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+
+.contact_form label{
+  display: block; 
+  float: center; 	
+}
+
+
+/*boton*/
+.contact_form button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px; 	
+  margin-bottom: 20px; 
+  margin-top: 10px; 	
+  text-transform: uppercase;
+  background-color: #29384e;
+  border-color: #29384e; 
+  border-style: solid; 
+  border-radius: 10px;	
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+.contact_form button p{
+	color: #fff; 
+}
+
+
+.contact_form span{
+	color: #ffffff; 
+}
+
+
+.contact_form .aviso{
+	font-size: 13px;  
+	color: #fafafa;  
+}
+
+
+.contact_form h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #f7f7f7;
+}
+
+
+.contact_form h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #ffffff;   
+}
+
+
+.contact_form p{
+	font-size: 14px; 
+	color: #ffffff; 
+}
+
+
+.contact_form ::-webkit-input-placeholder {
+ color: #644f4f;
+}
+
+
+.contact_form ::-webkit-textarea-placeholder {
+ color: #8f6c6c;
+}
+
+
+.contact_form .formulario input:focus{
+	outline:0;
+	border: 1px solid #a53030;
+}
+
+
+.contact_form .formulario textarea:focus{
+	outline:0;
+	border: 1px solid #a53030;
 }
