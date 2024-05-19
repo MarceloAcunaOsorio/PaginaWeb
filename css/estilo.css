@@ -22,17 +22,17 @@ body{
 }
 
 /*modifica el contener del logo*/
-.header #logo{
-    width: 770px;
+.logo{
+    width: auto;
     margin: 0px auto;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 /*modifica el tamaño del logo*/
-.header #logo img{
+.logo img{
     display: block;
     margin: 0px auto; /*centrar*/
-    width: 120px;
+    width: 150px;
 }
 
 #menu{
