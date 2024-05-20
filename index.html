@@ -11,7 +11,26 @@
 
 <body>
     <!--Cabecera del cuerpo-->
-    <div id="menuContainer"></div>
+      <!--Cabecera del cuerpo-->
+      <header class="header">
+        <div id="container">
+            <div class="logo">
+                <a href="index.html"><img src="imagen/logo.png" alt="logo"></a>
+            </div>
+            
+            <!--menu-->
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>  
+                    <li><a href="#" onclick="cargarPagina('paginas/rompecabezas.html')">Rompecabeza</a></li>
+                    <li><a href="#" onclick="cargarPagina('paginas/estrategia.html')">Estrategia</a></li>
+                    <li><a href="#" onclick="cargarPagina('paginas/aventura.html')">Aventura</a></li>
+                    <li><a href="#" onclick="cargarPagina('paginas/familiar.html')">Familiar</a></li>                   
+                </ul>
+            </nav>
+
+        </div>
+    </header>
 
     <main id="contenido">
         <div id="container">
@@ -19,8 +38,13 @@
         </div>
     </main>
 
-    <!--pie de pagina-->
-    <div id="footerContainer"></div>
+      <!--pie de pagina-->
+      <footer class="footer">
+        <div id="container">
+            Derechos de autor &copy; 2024 Mi Sitio Web
+        </div>
+        
+    </footer>
 </body>
 
 </html>
