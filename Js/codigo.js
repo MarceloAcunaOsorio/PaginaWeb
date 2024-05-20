@@ -37,7 +37,7 @@ function cargarfooter()
         });
 }
 
-// Llamar a la función para cargar el menú cuando la página cargue
+// Llamar a la función para cargar el footer cuando la página cargue
 window.addEventListener('DOMContentLoaded', cargarfooter);
 
 
@@ -51,9 +51,7 @@ window.addEventListener('DOMContentLoaded', cargarfooter);
 function cargarPagina(url) {
     fetch(url)
     .then(response => response.text())
-    .then(html => {
-        document.getElementById('contenido').innerHTML = html;
-    })
+    .then(html => {document.getElementById('contenido').innerHTML = html;})
     .catch(error => console.error('Error al cargar la página:', error));
 }
 
