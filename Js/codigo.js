@@ -41,6 +41,11 @@ function cargarfooter()
 window.addEventListener('DOMContentLoaded', cargarfooter);
 
 
+
+
+
+
+
 //cargar paginas al momento de hacer click en menu
 
 function cargarPagina(url) {
